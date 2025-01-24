@@ -1,5 +1,3 @@
-edad=int(input('introduce tu edad '))
-if edad >= 18:
-    print("Eres mayor de edad.")
-else:
-    print("Eres menor de edad.")
+n = int(input('Introduce un numero: '))
+resultado = "par" if n % 2 == 0 else "impar"
+print(f"El número {n} es {resultado}.")

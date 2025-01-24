@@ -1,2 +1,5 @@
-nombre =input('¿Como te llamas?')
-print('encantado de conocerte', nombre)
+edad=int(input('introduce tu edad '))
+if edad > 18:
+    print('No puedes votar ')
+    else 
+    print ('puedes votar')
